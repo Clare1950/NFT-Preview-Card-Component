@@ -81,7 +81,7 @@ hr {
   z-index: 4;
 }
 
- .equilibrium-image:hover {
+ .equilibrium-image:active {
   z-index: 1;
 }
 
