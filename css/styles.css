@@ -72,7 +72,6 @@ hr {
 
 .equilibrium-image {
   border-radius: 10px;
-  cursor: pointer;
   display: block;
   max-width: 320px;
   position: relative;
@@ -80,6 +79,7 @@ hr {
 }
 
 :hover .equilibrium-image {
+  cursor: pointer;
   z-index: 1;
 }
 
