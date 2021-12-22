@@ -29,7 +29,7 @@ footer {
   align-items: center;
   display: flex;
   justify-content: flex-start;
-  width: 320px;
+  width: 300px;
 }
 
 span {
@@ -56,9 +56,9 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 30px;
+ padding: 20px;
   margin: 20px;
-  max-width: 350px;
+  width: 320px;
 }
 
 /* main image section - including overlay for active state*/
@@ -66,27 +66,29 @@ hr {
 .image-container {
   position: relative;
   border-radius: 10px;
-  max-width: 320px;
+  height: 300px;
+  width: 300px;
   overflow: hidden;
 }
 
 .equilibrium-image {
   border-radius: 10px;
+  cursor: pointer;
   display: block;
-  max-width: 320px;
+  height: 300px;
+  width: 300px;
   position: relative;
   z-index: 4;
 }
 
-.equilibrium-image:active {
-  cursor: pointer;
+ .equilibrium-image:hover {
   z-index: 1;
 }
 
 .green-overlay {
   position: absolute;
-  height: 320px;
-  width: 320px;
+  height: 300px;
+  width: 300px;
   top: 0;
   background-color: hsl(178, 100%, 50%);
   z-index: 2;
@@ -107,13 +109,13 @@ hr {
 /* written info underneath card*/
 
 .main-content {
-  max-width: 320px;
+  flex: 1 1 320;
 }
 
 .stats {
   display: flex;
   justify-content: space-between;
-  width: 320px;
+  width: 300px;
 }
 
 .stat-eth {
